@@ -4,7 +4,10 @@ html, body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("guess.jfif");
+	background-image: url("qm.jpg");
+	background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
 	font-family: 'Oswald', sans-serif;
   }
   h1 {
