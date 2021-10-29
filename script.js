@@ -11,6 +11,14 @@ function writeMessage(elementId, message, appendMessage) {
 		elemToUpdate.innerHTML = message;
 	}
 };
+document.addEventListener('keypress', function(e) {
+	
+	  var keynum = e.key;
+	  if(keynum == "Enter") {
+		userGuessed();
+	  }
+	}
+)
 
 function newGame() {
 	secretNumber = Math.floor(Math.random() * 1000) + 1;
